@@ -1,0 +1,289 @@
+/**********************************
+General Styling
+***********************************/
+
+body {
+font-family: sans-serif;
+margin: auto;
+padding: 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+/***********************************
+Header
+***********************************/
+
+#logo {
+  display: inline-block;
+  float: left;
+  width: 10%;
+  margin: 10px 0 10px 0;
+  padding: 0;
+  }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/*..Navigation..*/
+header {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+
+
+.nav ul li a {
+	display: inline-block;
+	float: none;
+	width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 2px 0 2px 0;
+    background-color: gray;
+}
+
+.nav ul li a:link {
+    text-decoration: none;
+}
+
+.nav ul li a:visited {
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.nav ul li a:active {
+    text-decoration: underline;
+}
+
+
+/*.. resources gallery images*/
+.resourceblocks {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 0px 0 30px 0;
+	padding: 0;
+	background-color: #dee2e2;
+	}
+#gallery-container img {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #cbcbcb;
+    }
+
+
+/***************************
+Footer
+****************************/
+
+footer {
+	display: inline-block;
+	float: none;
+	margin: 10px 0 0 0px;
+	padding: 30px 0 30px 0;
+	width: 100%;
+	background-color: #eae6e1;
+	}
+footer p{
+	padding-left: 10px;
+}
+
+
+
+
+@media all and (min-width: 320px){
+	header {
+		display: inline-block;
+		float: none;
+		width: 100%;
+		background: #fff;
+	}
+	#logo {
+		display: inline-block;
+		float: none;
+		width: 50%;
+		margin: 10px 0 10px 0;
+		padding: 0px 85px 0px 95px;
+  	}
+  	.nav {
+		display: block;
+		float: none;
+		text-align: center;
+		margin: 10px 0 0 0;
+		padding: 0;
+		}	
+	.nav ul li a {
+		width: 100%;
+	    display: inline-block;
+	    float: none;
+	    text-align: center;
+	    text-decoration: none;
+	    margin: 2px 0 2px 0;
+	    padding: 10px 0 10px 0;
+	  	}	
+
+	#gallery-container img {
+		display: inline-block;
+	    float: left;
+	    position: relative;
+	    left: 4px;
+	    width: 100%;
+	    margin: 10px 0 10px 0;
+	    padding: 10px 0px 10px 0px;
+	    background-color: #fff;
+	    }
+	    
+	#gallery-container p {
+		display: inline-block;
+		float: left;
+		text-align: left;
+		font-size: 15px;
+		color: black;
+		margin: 0 auto;
+		padding: 5px 50px 5px 50px;
+		}
+
+
+
+
+@media all and (min-width: 550px) {
+	header {
+		display: inline-block;
+		float: left;
+		width: 100%;
+		background: #fff;
+		margin: 10px 0 0 0;
+	}
+	#logo {
+		display: inline-block;
+		float: none;
+		width: 35%;
+		margin: 10px;
+		padding: 0 170px 0 170px;
+  	}
+  	.nav {
+		display: inline-block;
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin: 40px 0 40px 0;
+		padding: 0;
+		}	
+	.nav ul li {
+		width: 50%;
+	    display: inline-block;
+	    float: left;
+	    text-align: center;
+	    text-decoration: none;
+	    margin: 2px 0 2px 0;
+	    padding: 0;
+	  	}	
+	#gallery-container p img {
+		display: inline-block;
+	    float: left;
+	    position: relative;
+	    left: 0px;
+	    width: 50%;
+	    margin: 0 7px 0 7px;
+	    padding: 0;
+	    }
+	#gallery-container p {
+		display: inline-block;
+		float: right;
+		text-align: left;
+		font-size: 15px;
+		color: black;
+		margin: 0 auto;
+		padding: 5px 50px 5px 50px;
+	}
+
+@media all and (min-width: 768px) {
+	header {
+		display: inline-block;
+		float: none;
+		width: 100%;
+		background: #fff;
+		margin: 10px 0 0 0;
+	}
+	#logo {
+		display: inline-block;
+		float: left;
+		width: 20%;
+		margin: 10px;
+		padding: 0 10px 0 10px;
+  	}
+  	.nav {
+		display: inline-block;
+		float: left;
+		width: 70%;
+		text-align: center;
+		margin: 5px 0 5px 0;
+		padding: 0;
+	}	
+	.nav ul li {
+		width: 45%;
+	    display: inline-block;
+	    float: left;
+	    text-align: center;
+	    text-decoration: none;
+	    margin: 2px 0 2px 0;
+	    padding: 10px 0 0 0;
+	}	
+	.nav ul li a {
+		color: grey;
+	    background-color: white;
+	    text-align: right;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+	#gallery-container {
+		margin-top: 10px;
+	}
+	
+	#gallery-container p img {
+		display: inline-block;
+	    float: left;
+	    position: relative;
+	    left: 0px;
+	    width: 50%;
+	    margin: 0 7px 0 7px;
+	    padding: 0;
+	}
+	#gallery-container p {
+		display: inline-block;
+		float: right;
+		text-align: left;
+		font-size: 15px;
+		color: black;
+		margin: 0 auto;
+		padding: 5px 50px 5px 50px;
+	}
+	
