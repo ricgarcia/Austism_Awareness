@@ -116,9 +116,6 @@ footer p{
 	padding-left: 10px;
 }
 
-
-
-
 @media all and (min-width: 320px){
 	header {
 		display: inline-block;
@@ -170,9 +167,6 @@ footer p{
 		margin: 0 auto;
 		padding: 5px 50px 5px 50px;
 	}
-
-
-
 
 @media all and (min-width: 550px) {
 	header {
