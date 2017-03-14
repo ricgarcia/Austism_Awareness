@@ -7,14 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+    <script scr="https://code.jquery.com/color/jquery.color-2.1.2.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+      $(document).ready(function() {
+        $('#logo').click(function(){
+          $('html').hide().fadeIn(2000)
+        })
+      })
+       </script>
+
   </head>
 
   <body>
   	<header>
-      <a href="about.html">
+      <!--<a href="about.html" class="pagefadein">-->
 	      <img id="logo" src="img/logo.png">
-      </a>
+
       <nav class="nav">
 	      <ul>
     		  <li><a href="about.html">ABOUT</a></li>
